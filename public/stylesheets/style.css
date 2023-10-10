@@ -1,0 +1,75 @@
+html {
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font: 14px "Monospace", Arial, sans-serif;
+  color:aliceblue;
+  background-color: #16181f;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+/*
+.header {
+  align-items: center;
+  display: flex;
+  justify-content: ;
+  padding: 20px;
+  background-color: ;
+}
+*/
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #4973fc; 
+}
+
+
+.main-login {
+  margin: auto;
+  margin-top: 20%;
+  width: 50%;
+  /*border: 3px solid green;*/
+}
+
+.main-login h1 {
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 50%;
+  transform: translate(-50%, 0%);
+  border-radius: 24;
+  /*border: 3px solid green;*/
+}
+
+.form a {
+  font-size: 10px;
+  /*margin-top: 2px;*/
+}
+
+.form div {
+  margin-top: 8px;
+  border-radius: 24;
+}
+.senhaField {
+  border: #4973fc;
+  border-radius: 12;
+}
+
+.userField {
+  border: #4973fc;
+  border-radius: 12;
+}

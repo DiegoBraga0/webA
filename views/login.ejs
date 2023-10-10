@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <%- include('./partials/header')  %>
+    <div class="main-login">
+        <div>
+            <h1>Login</h1>
+        </div>
+        <div class="form">
+            <label for="guessField">Usuario: </label> <br>
+            <input type="text" id="userField" class="userField"> <br>
+            <label for="guessField">Senha: </label> <br>
+            <input type="password" id="senhaField" class="senhaField"> <br>
+            <a href="">Esqueceu a senha?</a> <br>
+            <div class="form-button">
+                <button type="button" id="loginSubmit" class="btn btn-warning">Entrar</button>
+            </div>
+            
+        </div>
+    </div>
+  </body>
+</html>
